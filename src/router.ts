@@ -2,7 +2,7 @@
 
 import { createRouter, createWebHistory } from 'vue-router';
 import UserPage from './views/users.vue';
-
+import FormPage from './views/form.vue';
 
 const routes = [
     {
@@ -10,6 +10,11 @@ const routes = [
         name: "user",
         component: UserPage,
     },
+    {
+        path: "/form",
+        name: "form",
+        component: FormPage,
+    }
 ]
 // Import other components as needed
 
